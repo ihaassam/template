@@ -1,0 +1,51 @@
+.trigger {
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .trigger:hover {
+    color: #1890ff;
+  }
+  .content-wrapper {
+    height: calc(100% - 64px);
+    width: 100%;
+    overflow-y: auto;
+  }
+  .context-box {
+    min-height: calc(100% - 48px);
+    position: relative;
+    overflow: hidden;
+    margin: 24px 16px;
+    padding: 24px;
+  }
+  
+  .header-container {
+    padding: 0 24px;
+  }
+  .light-span {
+    color: grey;
+    margin-right: 12px;
+  }
+  
+  .user-name {
+    color: black;
+    font-weight: 500;
+  }
+  .avatar-extra {
+    cursor: pointer;
+    background-color: #1890ff;
+  }
+  .logo-container {
+    padding: 16px;
+  }
+  .sidebar-heading {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+  }
+  

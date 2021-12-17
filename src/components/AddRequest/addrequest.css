@@ -1,0 +1,7 @@
+.form-request{
+    max-height: 100%;
+    overflow-y: auto;
+}
+.ant-switch{
+    background-color:#1890ff !important;
+}
